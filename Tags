@@ -1,0 +1,51 @@
+<title>	Define o título da página, normalmente apresentado no topo da janela
+
+<meta>	Permite a inclusão de informações e controle de características do documento, como o uso de UTF-8 para acentuação da língua portuguesa
+
+<link>	Efetua a ligação da página com um recurso externo, como folha de estilo CSS ou biblioteca JavaScript
+
+<h1> <h2> <h3> <h4> <h5> <h6> <h7>	Definem elementos de texto utilizados como títulos em diferentes tamanhos de fonte,
+sendo <h1> para o maior e <h7> para o menor.
+
+<b> <i> <u> <em> <strong>	Negrito, itálico e outros efeitos de texto. São consideradas obsoletas, sendo recomendado o uso de folhas de estilo CSS.
+
+
+<p> <div>	Definem trechos de texto, sendo que <p> ressalta o parágrafo e <div> é muito utilizado para a criação de camadas.
+
+<ul> <ol>	Iniciam a criação de listas de elementos, sendo numeradas com <ol>.
+
+<li>	Define um item de lista.
+
+<hr/>	Linha divisória na horizontal.
+
+<br/>	Quebra de linha.
+
+<table>	Define uma tabela e suas características gerais, como espessura de borda e espaçamento entre colunas.
+
+<tr>	Inicia uma linha da tabela.
+
+<td>	Define uma célula na linha criada anteriormente
+
+<input>
+
+text -Cria uma caixa de texto, podendo ter um valor inicial definido através de value.
+
+hidden- Quando queremos guardar um valor para envio, mas sem ficar visível.
+
+radio- Opções mutuamente exclusivas. Quando marcamos um, todos com o mesmo atributo
+name serão desmarcados. O que ficar marcado, ao final, enviará seu atributo value
+como dado para o servidor.
+
+checkbox- Quando queremos a possibilidade de marcar várias opções. Todos que forem marcados
+enviarão seus atributos value como dados para o servidor
+
+submit-	Cria um botão de envio para o formulário
+reset-	Cria um botão que reinicia (limpa) o formulário
+
+Métodos 
+
+GET-
+Os dados são enviados através da própria URL, ficando expostos na chamada.
+
+POST-
+Os dados são enviados em background, o que evita a exposição, mas não determina segurança, já que os pacotes podem ser capturados por ferramentas do tipo Sniffer.
